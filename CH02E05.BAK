@@ -24,8 +24,8 @@ clauses
   truck(datsun,50000,5,orange,20000).
   truck(toyota,25000,2,black,25000).
 
-  vehicle(Make,Odometer,Age,Color,Price):-
-	car(Make,Odometer,Age,Color,Price);
+  vehicle(Make,Odometer,Age,Color,Price).
+	car(Make,Odometer,Age,Color,Price):-
 	truck(Make,Odometer,Age,Color,Price).
 
 goal 
